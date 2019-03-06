@@ -2,13 +2,14 @@ body {
     height: 100vh;
     background: grey;
     margin: 0;
-    position: relative;
+    font-family: sans-serif;
 }
 
 header {
     background: blue;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: absolute;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
 }
