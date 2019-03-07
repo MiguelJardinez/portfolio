@@ -6,7 +6,7 @@
 
 body{
     margin: 0;
-    font-family: 'Roboto';
+    font-family: sans-serif;
 }
 
 h1{
@@ -98,8 +98,6 @@ figure{
     border-radius: 10px;
     padding: 20px;
     background: white;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .project-imageContainer{
@@ -117,12 +115,59 @@ figure{
 }
 
 .project-tittle{
-    font-size: 30px;
-    margin: 0 10px 0;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .project-details{
     height: 300px;
+}
+
+.experience{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #026fff;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+
+.experience img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-list-title {
+    margin-left: 20px;
+  }
+
+.experience-url {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 20px;;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.experience-details{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: #1b2127;
+    color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.experience-list{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container{
@@ -131,4 +176,6 @@ figure{
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
+    height: inherit;
+    flex-wrap: wrap;
 }
