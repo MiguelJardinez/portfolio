@@ -136,7 +136,7 @@ figure{
 }
 
 .experience img{
-    width: 480px;
+    width: 500px;
     height: 200px;
     object-fit: cover;
 }
@@ -170,6 +170,85 @@ figure{
     flex-wrap: wrap;
 }
 
+.contact{
+    background-color: #026fff;
+    color: white;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 20px 10px 50px;
+    background-image: url('../src/iconos/envelope.svg');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    width: 300px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.form-email h3 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 0px;
+}
+
+.container-button button{
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+}
+
+.social-link {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-size: 70px 70px;
+    margin: 0 15px;
+    background-repeat: no-repeat;
+}
+
+.social-link.facebook{
+    background-image: url('../src/iconos/facebook.svg')
+}
+
+.social-link.instagram{
+    background-image: url('../src/iconos/instagram.svg')
+}
+
+.social-link.twitter{
+    background-image: url('../src/iconos/twitter.svg')
+}
+
+.social-link.github{
+    background-image: url('../src/iconos/github.svg')
+}
+
+.social-link.whatsapp{
+    background-image: url('../src/iconos/whatsapp-logo-blanco.svg')
+}
+
+
+
 .container{
     width: 1100px;
     margin: 0 auto;
@@ -177,5 +256,5 @@ figure{
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
-    flex-wrap: wrap;
+    flex-wrap: inherit;
 }
