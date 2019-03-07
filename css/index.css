@@ -1,14 +1,44 @@
-body {
-    height: 100vh;
-    background: grey;
-    font-family: 'Roboto';
+/*
+    ----------Colores--------------
+    Header: #1b2127
+    Letras y Footer: #026fff
+*/
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background: blue;
+ol, li{
+    list-style: none;
+    margin: 0;;
 }
 
-header li a{
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ol{
+    display: flex;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
     color: white;
     text-decoration: none;
+    padding: 0 15px;
+    height: 106px;;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
 }
