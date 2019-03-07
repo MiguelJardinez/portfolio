@@ -247,7 +247,29 @@ figure{
     background-image: url('../src/iconos/whatsapp-logo-blanco.svg')
 }
 
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.footer img{
+    vertical-align: middle;
+    width: 150px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #95CA3E;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer p{
+    font-size: 20px;
+}
 
 .container{
     width: 1100px;
