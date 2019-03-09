@@ -115,7 +115,7 @@ figure{
 }
 
 .project-tittle{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -266,6 +266,7 @@ figure{
     text-decoration: none;
     color: #13b113;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .container{
@@ -279,6 +280,237 @@ figure{
     flex-wrap: inherit;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 1023px){
+    
+    h1{
+        z-index: 2;
+        font-size: 3em;
+        text-shadow: 1px 2px 2px #000;
+    }
+    .header{
+        height: 90px;
+    }
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-image{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        filter: opacity(80%) blur(1px);
+    }
+    .header img{
+        margin-bottom: 5px;
+    }
+    .experience-list-title{
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .project-course{
+        font-size: .9em;
+    }
+    .project-date{
+        font-size: .8em;
+    }
+}
 
+@media screen and (max-width:767px){
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        margin-bottom: 1em;
+    }
+    h3{
+        margin:0;
+    }
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol{
+        display: initial;
+    }
+    .header ol li{
+        height: 50px;
+        margin: 2em;
+    }
+    .header a{
+        justify-content: center;
+        height: 40px;
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    .header .logo{
+        justify-content: center;
+    }
+    .header img{
+        margin-top: 1em;
+        margin-bottom: .7em;
+    }
+    .menu{
+        display: none;
+    }
+    .project{
+        display: block;
+    }
+    .experience-list-title{
+        margin-bottom: .4em;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .project-url{
+        font-size: 1.1em;
+    }
+    .experience-description{
+        font-size: .8em;
+    }
+    .experience a{
+        padding: 7px;
+    }
+    .experience-tittle{
+        margin: .5em 0;
+    }
+    .social-link{
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        margin-left: -7px;
+        margin-right: 14px;
+    }
+    .social{
+        margin-left: 34px;
+    }
+    .form-email{
+        margin-left: 20px;
+    }
+    .footer-miguel{
+        margin-left: 20px;
+        font-size: 1.2em;
+    }
+    .footer-diseno{
+        margin-right: 20px;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 2em;
+    }
+    .project-details{
+        font-size: 1em;
+    }
+    .project-description{
+        font-size: 1em;
+    }
+    .experience{
+        width: 85%;
+        flex-shrink: initial;
+    }
+    .experience img{
+        width: 100%;
+        flex-shrink: initial;
+    }
+    .project-details{
+        font-size: .8em;
+        height: auto;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .project-imageContainer img{
+        max-width: 100%;
+    }
+    .contact{
+        height: auto;
+        width: 100%;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    .social{
+        margin: 0;
+    }
+    .social-link{
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
+    }
+    #email{
+        margin-bottom: 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+    .footer-miguel{
+        margin-left: 15px;
+        font-size: .9em;
+    }
+    .footer-diseno{
+        margin-right: 15px;
+        font-size: .9em;
+        height: 36.4;
+    }
+}
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 1.1em;
+        letter-spacing: -1px;
+    }
+    h2{
+        margin-top: 0;
+    }
+    .project-tittle h3{
+        font-size: .7em;
+    }
+    .experience{
+        width: 100%;
+        flex-shrink: initial;
+    }
+    .experience-description{
+        font-size: .7em;
+    }
+    .experience-details{
+        width: auto;
+        margin: 20px 10px;
+    }
+    .experience-list-title{
+        margin-top: 10px;
+    }
+    .experience img{
+        width: 100%;
+        flex-shrink: initial;
+    }
+    .social-link{
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+    }
+    .footer p{
+        font-size: 1.3em;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .footer-diseno{
+        margin-left: 40px;
+        margin-right: 30px;
+    }
 }
