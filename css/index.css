@@ -11,9 +11,9 @@ body{
 
 h1{
     text-transform: capitalize;
-    font-size: 37px;
+    font-size: 39px;
     line-height: 1.5;
-    letter-spacing: -.2px;
+    letter-spacing: -3.5px;
     color: white;
     margin: 0;
 }
@@ -44,15 +44,15 @@ figure{
     background-color: #1b2127;
     color: white;
     display: flex;
+    height: 90px;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0, .5);
+    flex-wrap: wrap;
 }
 
 .logo{
     margin: 0;
     display: flex;
-    align-items: center;
 }
 
 .header ol{
@@ -127,16 +127,17 @@ figure{
 .experience{
     border: 1px solid gray;
     border-radius: 10px;
-    width: 500px;
+    width: 47%;
     overflow: hidden;
     flex-shrink: 0;
     background-color: #026fff;
     margin-bottom: 30px;
     margin: 10px;
+    justify-content: center;
 }
 
 .experience img{
-    width: 500px;
+    width: 480px;
     height: 200px;
     object-fit: cover;
 }
@@ -168,6 +169,7 @@ figure{
 .experience-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact{
@@ -225,6 +227,7 @@ figure{
     background-size: 70px 70px;
     margin: 0 15px;
     background-repeat: no-repeat;
+    
 }
 
 .social-link.facebook{
@@ -253,30 +256,29 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.footer img{
+.footer img {
     vertical-align: middle;
-    width: 150px;
 }
-
 .footer a{
     text-decoration: none;
-    color: #95CA3E;
+    color: #13b113;
     text-transform: uppercase;
-    font-weight: bold;
-}
-
-.footer p{
-    font-size: 20px;
 }
 
 .container{
-    width: 1100px;
+    max-width: 1000px;
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+@media screen and (max-width:768px){
+
 }
