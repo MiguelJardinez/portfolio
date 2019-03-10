@@ -330,6 +330,19 @@ figure{
     flex-wrap: inherit;
 }
 
+/* Animaciones */
+.btn:active{
+    transform: scale(0.8);
+    outline: none;
+    transition-duration: 800ms;
+}
+.btn:hover{
+    background-color: rgba(209, 206, 206, 0.157);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+/* /animaciones */
+
 @media screen and (max-width: 1023px){
     h1{
         z-index: 2;
@@ -413,7 +426,7 @@ figure{
         z-index: 4;
         width: 50vw;
         left: -100vw;
-        top: 0;
+        top: -5px;
         bottom: 0;
         display: flex;
         justify-content: center;
@@ -597,5 +610,8 @@ figure{
         display: block;
         margin-left: 40px;
         margin-bottom: 0;
+    }
+    .menu{
+        font-size: .6em;
     }
 }
