@@ -93,6 +93,14 @@ figure{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.juntos{
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
 
 .logo{
     margin: 0;
@@ -331,13 +339,26 @@ figure{
 }
 
 /* Animaciones */
+.btn{
+    cursor: pointer;
+}
 .btn:active{
     transform: scale(0.8);
     outline: none;
-    transition-duration: 800ms;
+    transition-duration: 1s;
+}
+.btn-list:active{
+    transform: scale(0.8);
+    outline: none;
+    transition-duration: 1s;
 }
 .btn:hover{
-    background-color: rgba(209, 206, 206, 0.157);
+    background-color: rgba(31, 30, 30, 0.5);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.btn-list:hover{
+    background-color: rgba(255, 255, 255, 0.295);
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
 }
@@ -350,7 +371,7 @@ figure{
         text-shadow: 1px 2px 2px #000;
     }
     .header{
-        height: 90px;
+        height: auto;;
     }
     .hero{
         height: auto;
@@ -387,6 +408,17 @@ figure{
     .burger-button{
         display: flex;
     }
+    .menu ol{
+        padding: 50%;
+        font-size: .9em;
+    }
+    .menu a{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 100%;
+        height: 2.5em;
+        font-size: 1.2em;
+    }
     h1{
         font-size: 3em;
     }
@@ -409,9 +441,9 @@ figure{
     }
     .header a{
         justify-content: center;
-        height: 40px;
         font-size: 1.5em;
         margin-bottom: 0.5em;
+        text-align: center;
     }
     .header .logo{
         justify-content: center;
@@ -485,7 +517,7 @@ figure{
         font-size: 1.2em;
     }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     h1{
         font-size: 1.5em;
     }
