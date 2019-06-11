@@ -155,6 +155,7 @@ figure{
 
 .project-imageContainer{
     width: 500px;
+    object-fit: cover;
 }
 
 .project-course,
