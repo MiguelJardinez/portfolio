@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portafolio profesional de Miguel Jardinez\r desarrollador frontend, con pasion por la enseñanza y la animacion.\r #habilidades y experiencia: \r   Desarrollo Web\r   Animaciones CSS\r   Maquetacion pagina web con CSS grid\r   Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelJardinez/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelJardinez/portfolio/issues"
+  },
+  "homepage": "https://github.com/MiguelJardinez/portfolio#readme",
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
+}

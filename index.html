@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="src/png" href="./src/icon.svg">
-    
+
     <title>Miguel Jardinez</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
+
+    <!-- Elementos de typed -->
+    <!-- Elementos de typed -->
+
     <!-- Icon -->
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <!-- /Icon -->
 
     <!-- Header -->
     <header class="header">
-    <div class="container">
-                <figure class="logo" href="#">
-                    <img src="./src/Logo blanco/logo.svg" height="70" alt="Logo Miguel">
-                </figure>
-                <nav class="menu">
-                    <ol>
-                        <li>
-                            <a class="btn" href="#portfolio">Portafolio</a>
-                        </li>
-                        <li>
-                            <a class="btn" href="#experience">Experiencia</a>
-                        </li> 
-                        <li class="juntos btn-list">
-                            <a href="#juntos">Trabajemos juntos</a>
-                        </li> 
-                    </ol>
-                </nav>
-            </div>
-        </header>
-    <!-- /Header -->
-    
-    <!-- Hero -->
-    <section class="hero"> 
         <div class="container">
-            <h1>Hola! Soy <strong>Miguel Jardinez</strong> <br/>
-                Desarrollador <strong>Fronte-End</strong> y <br> <strong>Diseñador (UI/UX)</strong> con <br/>
-                pasion por <strong>Aprender</strong> 
+            <figure class="logo" href="#">
+                <img src="./src/Logo blanco/logo.svg" height="70" alt="Logo Miguel">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="btn" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#experience">Experiencia</a>
+                    </li>
+                    <li class="juntos btn-list">
+                        <a href="#juntos">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hola! Soy <strong>Miguel Jardinez</strong> <br />
+                <span  id="typed"></span>  <strong>Fronte-End</strong> con
+                <br />
+                pasion por <strong>Aprender</strong>
             </h1>
-                <img class="hero-image" src="https://i.postimg.cc/5Nr9t86T/hero.jpg" width="500" height="300" alt="Imagen bonita">
+            <img class="hero-image" src="https://i.postimg.cc/5Nr9t86T/hero.jpg" width="500" height="300"
+                alt="Imagen bonita">
         </div>
     </section>
     <!-- /Hero -->
@@ -52,24 +60,30 @@
     <!-- Proyectos -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <h2>Portafolio (Proyectos Destacados)</h2>
+            <h2 id="titulo">Portafolio (Proyectos Destacados)</h2>
             <article class="project">
                 <div class="project-details">
                     <h3 class="project-tittle">WEB Salones Guadalupe</h3>
                     <h6 class="project-course">Desarrollo web Responsive</h6>
                     <p class="project-date"><small><strong>Fecha: </strong>05 de Marzo del 2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a target="blank_" href="http://salonesguadalupe.com/">www.salonesguadalupe.com</a></small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a target="blank_" href="https://github.com/MiguelJardinez/SalonesGuadalupe">https://github.com/MiguelJardinez/SalonesGuadalupe</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a target="blank_"
+                                href="http://salonesguadalupe.com/">www.salonesguadalupe.com</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a target="blank_"
+                                href="https://github.com/MiguelJardinez/SalonesGuadalupe">https://github.com/MiguelJardinez/SalonesGuadalupe</a></small>
+                    </p>
                     <p class="project-description">
-                            Salones Guadalupe fue un proyecto el cual esta centrado en mostrar la elegancia y calidad de la empresa,
-                            cuenta con diferentes funciones para mantener un trato directo con el cliente con gran eficacia y rapidez,
-                            esta pagina cuenta con Pixel de facebook para rastrear eventos para futuro marketing,
-                            chat de facebook para mejor interaccion con el usuario y librerias de javascript para 
-                            galeria y animaciones.
+                        Salones Guadalupe fue un proyecto el cual esta centrado en mostrar la elegancia y calidad de la
+                        empresa,
+                        cuenta con diferentes funciones para mantener un trato directo con el cliente con gran eficacia
+                        y rapidez,
+                        esta pagina cuenta con Pixel de facebook para rastrear eventos para futuro marketing,
+                        chat de facebook para mejor interaccion con el usuario y librerias de javascript para
+                        galeria y animaciones.
                     </p>
                 </div>
                 <figure class="project-imageContainer">
-                    <img class="project-image" src="https://i.postimg.cc/xCLbfgGG/Proyect-salones-Guadalupe.jpg" width="500" alt="Imagen de platzi video">
+                    <img class="project-image" src="https://i.postimg.cc/xCLbfgGG/Proyect-salones-Guadalupe.jpg"
+                        width="500" alt="Imagen de platzi video">
                 </figure>
             </article>
 
@@ -78,15 +92,22 @@
                     <h3 class="project-tittle">Rocket pizza</h3>
                     <h6 class="project-course">Adobe XD diseño de (UI/UX)</h6>
                     <p class="project-date"><small><strong>Fecha: </strong>02 de Junio del 2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://www.behance.net/gallery/81414863/Rocket-Pizza-UI" target="blank_">https://www.behance.net/migueljardine</a></small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://github.com/MiguelJardinez/RocketPizza" target="blank_">https://github.com/MiguelJardinez/RocketPizza</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a
+                                href="https://www.behance.net/gallery/81414863/Rocket-Pizza-UI"
+                                target="blank_">https://www.behance.net/migueljardine</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a
+                                href="https://github.com/MiguelJardinez/RocketPizza"
+                                target="blank_">https://github.com/MiguelJardinez/RocketPizza</a></small></p>
                     <p class="project-description">
-                            La interfaz de usuario Rocket pizza esta diseñada, pensando en un servicio rapido y útil en envio a domicilio de comida rapida,
-                            Esta (UI) fue desarrollada con la ayuda de los software Adobe Xd y Adobe illustratos cuenta con microinteracciónes (UX) para pruebas de funcionalidad.
+                        La interfaz de usuario Rocket pizza esta diseñada, pensando en un servicio rapido y útil en
+                        envio a domicilio de comida rapida,
+                        Esta (UI) fue desarrollada con la ayuda de los software Adobe Xd y Adobe illustratos cuenta con
+                        microinteracciónes (UX) para pruebas de funcionalidad.
                     </p>
                 </div>
                 <figure class="project-imageContainer">
-                    <img class="project-image" src="https://i.postimg.cc/NGN3xdsJ/Project-Rocket-Pizza.jpg" width="500" alt="Imagen de platzi video">
+                    <img class="project-image" src="https://i.postimg.cc/NGN3xdsJ/Project-Rocket-Pizza.jpg" width="500"
+                        alt="Imagen de platzi video">
                 </figure>
             </article>
 
@@ -95,16 +116,24 @@
                     <h3 class="project-tittle">Platzi Hawaii</h3>
                     <h6 class="project-course">Bootstrap 4</h6>
                     <p class="project-date"><small><strong>Fecha: </strong>02 de Junio del 2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://migueljardinez.github.io/platzihawaii/" target="blank_">https://migueljardinez.github.io/platzihawaii/</a></small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://github.com/MiguelJardinez/platzihawaii" target="blank_">https://github.com/MiguelJardinez/platzihawaii</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a
+                                href="https://migueljardinez.github.io/platzihawaii/"
+                                target="blank_">https://migueljardinez.github.io/platzihawaii/</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a
+                                href="https://github.com/MiguelJardinez/platzihawaii"
+                                target="blank_">https://github.com/MiguelJardinez/platzihawaii</a></small></p>
                     <p class="project-description">
-                        Landign page creada a partir de Boostrap 4, se desarrollo con la finalidad de ofrecer información sobre la proxima platziconf 2020
-                        este proyecto se implemento el uso de las grillas integradas en bootstrap, asi como diferentes complementos como lo son el carrusel de galria,
-                        las cartas de los speakers y un formulario para poder asistir a la charla y sor ponente implementado con una ventana modal.
+                        Landign page creada a partir de Boostrap 4, se desarrollo con la finalidad de ofrecer
+                        información sobre la proxima platziconf 2020
+                        este proyecto se implemento el uso de las grillas integradas en bootstrap, asi como diferentes
+                        complementos como lo son el carrusel de galria,
+                        las cartas de los speakers y un formulario para poder asistir a la charla y sor ponente
+                        implementado con una ventana modal.
                     </p>
                 </div>
                 <figure class="project-imageContainer">
-                    <img class="project-image" src="https://i.postimg.cc/fWpmcty0/Platzi-hawaii.jpg" width="500"  alt="Imagen de platzi video">
+                    <img class="project-image" src="https://i.postimg.cc/fWpmcty0/Platzi-hawaii.jpg" width="500"
+                        alt="Imagen de platzi video">
                 </figure>
             </article>
 
@@ -113,15 +142,19 @@
                     <h3 class="project-tittle">NearvyTech</h3>
                     <h6 class="project-course">Ecommerce Shopify</h6>
                     <p class="project-date"><small><strong>Fecha: </strong>02 de Diciembre del 2018</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://nearvytech.com/" target="blank_">https://nearvytech.com/</a></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://nearvytech.com/"
+                                target="blank_">https://nearvytech.com/</a></small></p>
                     <p class="project-description">
-                        Es una pagina web enfocada al ecommerce en donde se venden productos de bebé, se desarrollo la web para oprimizar las
-                        conversiones y asi ayudar a los anuncios a convertir mejor, cuenta con diferentes plugins para mejorar la atención al cliente,
-                        se implemento el pixel de facebook para mejorar continuamente los enbudos de venta. 
+                        Es una pagina web enfocada al ecommerce en donde se venden productos de bebé, se desarrollo la
+                        web para oprimizar las
+                        conversiones y asi ayudar a los anuncios a convertir mejor, cuenta con diferentes plugins para
+                        mejorar la atención al cliente,
+                        se implemento el pixel de facebook para mejorar continuamente los enbudos de venta.
                     </p>
                 </div>
                 <figure class="project-imageContainer">
-                    <img class="project-image" src="https://i.postimg.cc/6Qvw2pjw/nearvyte.jpg" width="500"  alt="Imagen de platzi video">
+                    <img class="project-image" src="https://i.postimg.cc/6Qvw2pjw/nearvyte.jpg" width="500"
+                        alt="Imagen de platzi video">
                 </figure>
             </article>
 
@@ -136,104 +169,114 @@
     </div>
 
     <section class="experience-list">
-            <div class="container">
-                <article class="experience">
-                    <figure class="experience-imageContainer">
-                        <img class="experience-image" src="https://i.postimg.cc/RZcrztfc/email.jpg"  alt="Email Marketing">
-                    </figure>
-                    <div class="experience-details">
-                        <h3 class="experience-tittle">Email Marketing</h3>
-                        <p class="experience-description"> 
-                            Conocimientos sobre secuencia de Email marketing para negocios online
-                            asi como en tiendas en linea como Shopify o Woocommerce al igual
-                            que otros modelos de negocios como la venta de infoproductos
-                            o marketing de afiliados con herramientascomo lo son klaviyo, mailChimp o
-                            Clickfunnels  
-                        </p>
-                        <a class="experience-url btn-list" href="https://www.klaviyo.com/" target="blank_">Herramienta utilizada   </a>
-                    </div>
-                </article>
-                <article class="experience">
-                    <figure class="experience-imageContainer">
-                        <img class="experience-image" src="https://i.postimg.cc/WpXbQBj2/desarrollo.jpg" height="500" alt="Email Marketing">
-                    </figure>
-                    <div class="experience-details">
-                        <h3 class="experience-tittle">Desarrollo Web</h3>
-                        <p class="experience-description">
-                            Conocimiento y experiencia en el desarrollo web Frontend 
-                            con HTML 5, JavaScript, CSS y Bootstrap. con el cual he desarrollado 
-                            landing pages para paginas de evento y formularios, conocimiento 
-                            en el desarrollo de animaciones Web con CSS3.
-                        </p>
-                        <a class="experience-url btn" href="https://migueljardinez.github.io/platzihawaii/" target="blank_">Ver Proyectos</a>
-                    </div>
-                </article>
-                <article class="experience">
-                    <figure class="experience-imageContainer">
-                        <img class="experience-image" src="https://i.postimg.cc/C5PhkqJZ/ecommerce.jpg" height="500" alt="tiendas en linea">
-                    </figure>
-                    <div class="experience-details">
-                        <h3 class="experience-tittle">Creacion de tiendas en linea</h3>
-                        <p  class="experience-description">
-                            Conocimiento y experiencia en la creacion de tiendas 
-                            digitales en shopify, para crear una tienda
-                            desde 0 ya sea de rama general o de algun nicho
-                            con la implentacion completa desde agregar los productos
-                            añadir descripciones, configurar procesadores de pago como los son
-                            2CheckOut o STRIPE.
-                        </p>
-                        <a class="experience-url btn-list" href="https://nearvytech.com/" target="blank_">Ver tienda</a>
-                    </div>
-                </article>
-                <article class="experience">
-                    <figure class="experience-imageContainer">
-                        <img class="experience-image" src="https://i.postimg.cc/JzBrHtXn/facebook.jpg" height="500" alt="Email Marketing">
-                    </figure>
-                    <div class="experience-details">
-                        <h3 class="experience-tittle">Chatbots y campañas con facebook</h3>
-                        <p class="experience-description">
-                            Experiencia en el desarrollo de chatbots de messenger para automatizar el servicio al cliente
-                            y generar una secuencia de marketing utilizando esta poderosa herramienta
-                        </p>
-                        <a class="experience-url btn-list" href="https://github.com/MiguelJardinez/chatbootmessenger" target="blank_">Ver chatbot</a>
-                    </div>
-                </article>
-                <article class="experience">
-                    <figure class="experience-imageContainer">
-                        <img class="experience-image" src="https://i.postimg.cc/QxCxsfxc/formacion.jpg" height="500" alt="Email Marketing">
-                    </figure>
-                    <div class="experience-details">
-                        <h3 class="experience-tittle">Certificados</h3>
-                        <p class="experience-description">
-                            Certificados que habalan mi conocimiento
-                            como desarrolaldor fronten asi como sus respectivos links para que puedan ver
-                            la empresa que los otorga su carrera y el respaldo con el que cuenta mi conocimiento
-                            y experiencia
-                        </p>
-                        <a class="experience-url btn-list" href="https://platzi.com/@MiguelJardinez/" target="blank_">Ver certificados</a>
-                    </div>
-                </article>
-                <article class="experience">
-                    <figure class="experience-imageContainer">
-                        <img class="experience-image" src="https://i.postimg.cc/Y9xq2VWz/animacion-css.jpg" height="500" alt="Email Marketing">
-                    </figure>
-                    <div class="experience-details">
-                        <h3 class="experience-tittle">Diseño web (UI/UX)</h3>
-                        <p class="experience-description">
-                            Proyectos personales con las herramientas de diseño Illustrator, Photoshop, adobe XD
-                        </p>
-                        <a class="experience-url btn-list"href="" target="blank_">Ver animaciones</a>
-                    </div>
-                </article>
-            </div>
+        <div class="container">
+            <article class="experience">
+                <figure class="experience-imageContainer">
+                    <img class="experience-image" src="https://i.postimg.cc/RZcrztfc/email.jpg" alt="Email Marketing">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-tittle">Email Marketing</h3>
+                    <p class="experience-description">
+                        Conocimientos sobre secuencia de Email marketing para negocios online
+                        asi como en tiendas en linea como Shopify o Woocommerce al igual
+                        que otros modelos de negocios como la venta de infoproductos
+                        o marketing de afiliados con herramientascomo lo son klaviyo, mailChimp o
+                        Clickfunnels
+                    </p>
+                    <a class="experience-url btn-list" href="https://www.klaviyo.com/" target="blank_">Herramienta
+                        utilizada </a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer">
+                    <img class="experience-image" src="https://i.postimg.cc/WpXbQBj2/desarrollo.jpg" height="500"
+                        alt="Email Marketing">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-tittle">Desarrollo Web</h3>
+                    <p class="experience-description">
+                        Conocimiento y experiencia en el desarrollo web Frontend
+                        con HTML 5, JavaScript, CSS y Bootstrap. con el cual he desarrollado
+                        landing pages para paginas de evento y formularios, conocimiento
+                        en el desarrollo de animaciones Web con CSS3.
+                    </p>
+                    <a class="experience-url btn" href="https://migueljardinez.github.io/platzihawaii/"
+                        target="blank_">Ver Proyectos</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer">
+                    <img class="experience-image" src="https://i.postimg.cc/C5PhkqJZ/ecommerce.jpg" height="500"
+                        alt="tiendas en linea">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-tittle">Creacion de tiendas en linea</h3>
+                    <p class="experience-description">
+                        Conocimiento y experiencia en la creacion de tiendas
+                        digitales en shopify, para crear una tienda
+                        desde 0 ya sea de rama general o de algun nicho
+                        con la implentacion completa desde agregar los productos
+                        añadir descripciones, configurar procesadores de pago como los son
+                        2CheckOut o STRIPE.
+                    </p>
+                    <a class="experience-url btn-list" href="https://nearvytech.com/" target="blank_">Ver tienda</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer">
+                    <img class="experience-image" src="https://i.postimg.cc/JzBrHtXn/facebook.jpg" height="500"
+                        alt="Email Marketing">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-tittle">Chatbots y campañas con facebook</h3>
+                    <p class="experience-description">
+                        Experiencia en el desarrollo de chatbots de messenger para automatizar el servicio al cliente
+                        y generar una secuencia de marketing utilizando esta poderosa herramienta
+                    </p>
+                    <a class="experience-url btn-list" href="https://github.com/MiguelJardinez/chatbootmessenger"
+                        target="blank_">Ver chatbot</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer">
+                    <img class="experience-image" src="https://i.postimg.cc/QxCxsfxc/formacion.jpg" height="500"
+                        alt="Email Marketing">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-tittle">Certificados</h3>
+                    <p class="experience-description">
+                        Certificados que habalan mi conocimiento
+                        como desarrolaldor fronten asi como sus respectivos links para que puedan ver
+                        la empresa que los otorga su carrera y el respaldo con el que cuenta mi conocimiento
+                        y experiencia
+                    </p>
+                    <a class="experience-url btn-list" href="https://platzi.com/@MiguelJardinez/" target="blank_">Ver
+                        certificados</a>
+                </div>
+            </article>
+            <article class="experience">
+                <figure class="experience-imageContainer">
+                    <img class="experience-image" src="https://i.postimg.cc/Y9xq2VWz/animacion-css.jpg" height="500"
+                        alt="Email Marketing">
+                </figure>
+                <div class="experience-details">
+                    <h3 class="experience-tittle">Diseño web (UI/UX)</h3>
+                    <p class="experience-description">
+                        Proyectos personales con las herramientas de diseño Illustrator, Photoshop, adobe XD
+                    </p>
+                    <a class="experience-url btn-list" href="" target="blank_">Ver animaciones</a>
+                </div>
+            </article>
+        </div>
     </section>
     <!-- /Experiencia -->
 
     <!-- Habilidades -->
     <div class="container" id="juntos">
-        <img class="miguel-portfolio" src="https://i.postimg.cc/sDbDTjjN/portfolio.jpg" width="1000px;" alt="Imagen de mis habilidades">
+        <img class="miguel-portfolio" src="https://i.postimg.cc/sDbDTjjN/portfolio.jpg" width="1000px;"
+            alt="Imagen de mis habilidades">
     </div>
-        
+
     <!-- /Habilidades -->
 
     <!-- Trabajemos juntos -->
@@ -246,33 +289,38 @@
                     <button class="btn">Enviar</button>
                 </div>
             </form>
-        <div class="social">
-            <a href="https://www.facebook.com/miguelangel.jardinezramos" target="blank_" class="social-link facebook"></a>
-            <a href="https://www.instagram.com/jardinezgram" target="blank_" class="social-link instagram"></a>
-            <a href="https://www.behance.net/migueljardine" target="blank_" class="social-link behance"></a>
-            <a href="https://github.com/MiguelJardinez" target="blank_" class="social-link github"></a>
-            <a href="https://api.whatsapp.com/send?phone=527911028540" target="blank_" class="social-link whatsapp"></a>
+            <div class="social">
+                <a href="https://www.facebook.com/miguelangel.jardinezramos" target="blank_"
+                    class="social-link facebook"></a>
+                <a href="https://www.instagram.com/jardinezgram" target="blank_" class="social-link instagram"></a>
+                <a href="https://www.behance.net/migueljardine" target="blank_" class="social-link behance"></a>
+                <a href="https://github.com/MiguelJardinez" target="blank_" class="social-link github"></a>
+                <a href="https://api.whatsapp.com/send?phone=527911028540" target="blank_"
+                    class="social-link whatsapp"></a>
+            </div>
         </div>
-        </div>  
     </section>
     <!-- /Trabajemos juntos -->
 
     <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-miguel">
-                    <p><img src="./src/Logo blanco/logo.svg" width="100" alt="Logo Miguel Jardinez"> Portaforlio Profesional </p>
-                </div>
-                <div class="footer-diseno">
-                    <p>Diseñado con 💖 por <a href="https://www.platzi.com" target="blank_">Platzi</a></p>
-                </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-miguel">
+                <p><img src="./src/Logo blanco/logo.svg" width="100" alt="Logo Miguel Jardinez"> Portaforlio Profesional
+                </p>
             </div>
-        </footer> 
+            <div class="footer-diseno">
+                <p>Diseñado con 💖 por <a href="https://www.platzi.com" target="blank_">Platzi</a></p>
+            </div>
+        </div>
+    </footer>
     <!-- /Footer -->
 
     <!-- Scripts -->
-        <script src="./css/index.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <!-- /Scripts -->
-    
+
 </body>
+
 </html>
