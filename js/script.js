@@ -31,6 +31,7 @@ window.onload = () => {
     var typed = new Typed('#typed', {
         strings: ['Desarrollador', 'Diseñador', 'Apasionado'],
         backSpeed: 40,
+        backDelay: 1050,
         typeSpeed: 60,
         loop:  true,
     });
